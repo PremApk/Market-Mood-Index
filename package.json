@@ -1,0 +1,27 @@
+{
+  "name": "market_mood_index",
+  "version": "1.0.0",
+  "description": "This api will current MMI status with 88.6% accuracy. MMI is an sentiment tool that describes the current mood in the market as emotions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "market",
+    "market mood",
+    "index",
+    "market mood index",
+    "stock market",
+    "shares"
+  ],
+  "author": "Apk",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
